@@ -1,0 +1,36 @@
+Registration System – Summary Report (Sample)
+Generated At : 2025-10-01 21:24:13 (+07:00)
+App Version  : 1.0
+Endianness   : Little-Endian
+Encoding     : UTF-8 (fixed-length)
+
++----------+--------------------+------------------------+------+----------+-------------------------------+--------+-------+----------+
+| StudentID| Full Name          | Major                  | Year | CourseID | Course Name                   | Credit | Grade | Status   |
++----------+--------------------+------------------------+------+----------+-------------------------------+--------+-------+----------+
+| 1001     | Somchai Dee        | Computer Science       | 1    | 2001     | Computer Programming (Python) | 3      | A     | Active   |
+|          |                    |                        |      | 2002     | Data Structures               | 3      | B+    | Active   |
+| 1002     | Anong Sookjai      | Information Technology | 2    | 2003     | Database Systems              | 3      | C     | Active   |
+| 1003     | Janpen Rungruang   | Computer Science       | 3    | 2001     | Computer Programming (Python) | 3      | W     | Dropped  |
+| 1004     | Krit Prompong      | Software Engineering   | 1    | 2002     | Data Structures               | 3      | A     | Active   |
+| 1005     | Suda Chaiyasit     | Information Technology | 4    | 2004     | Operating Systems             | 3      | B     | Active   |
++----------+--------------------+------------------------+------+----------+-------------------------------+--------+-------+----------+
+
+Summary (Active only)
+- Total Students    : 5
+- Total Courses     : 4
+- Total Enrollments : 6
+- Dropped Records   : 1
+- Active Records    : 5
+
+Statistics (Grade, Active only)
+- A count : 2
+- B+ count : 1
+- C count : 1
+- B count : 1
+
+Students by Major (Active only)
+- Computer Science : 2
+- Information Technology : 2
+- Software Engineering : 1
+
+
